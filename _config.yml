@@ -18,8 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+texture:
+  title: Maryem El Alami
+  tagline: Student
+  date_format: "%b %-d, %Y"
+  style: purple
+  disqus_shortname: icode-co
+  social_links:
+    twitter: Maryem_xxi
+    github:  maryxxi
+    linkedin:  maryem-el-alami-644920199
+
+title: My Personal Website
+email: maryem.el.alami21@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -30,7 +41,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Build settings
-theme: minima
+theme: texture
 plugins:
   - jekyll-feed
 
